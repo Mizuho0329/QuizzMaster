@@ -1,3 +1,16 @@
+##Get Started
+
+Install Composer Dependencies
+<pre> composer install </pre>
+
+Artisan
+<pre> php artisan key:generate </pre>
+
+<pre> php artisan migrate </pre>
+
+Launch artisan server
+<pre> php artisan serve </pre>
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">

@@ -1,8 +1,5 @@
-## Run xampp
-sudo /opt/lampp/manager-linux-x64.run
-
-## Root SuperStartup
-/opt/lampp/htdocs/SuperStartup
+## Root QuizzMaster
+D:\Logiciel\wamp64\www\QuizzMaster
 
 ## Run server
 php artisan serve
