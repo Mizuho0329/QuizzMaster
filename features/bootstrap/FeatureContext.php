@@ -17,12 +17,20 @@ class FeatureContext implements Context
      */
 
     private $quizzmaster;
-    private $bouton;
+    private $question;
+    private $partie;
+    private $reponse;
+    private $joueur;
+    private $option;
 
     public function __construct()
     {
-        // $this->bouton = new Bouton();
-        // $this->menu = new Quizzmaseter($this->bouton);
+        $this->quizzmaster = new Quizzmaseter($this->quizzmaster);
+        $this->question = new Question($this->question);
+        $this->partie = new Partie($this->partie);
+        $this->reponse = new Reponse($this->reponse);
+        $this->joueur = new Joueur($this->joueur);
+        $this->option = new Option($this->option);
     }
 
 
