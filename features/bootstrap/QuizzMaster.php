@@ -20,8 +20,8 @@ final class QuizzMaster
         }
     }
 
-    // public function getProductPrice($product)
-    // {
-    //     return $this->priceMap[$product];
-    // }
+    public function {
+
+    }
+
 }
