@@ -1,9 +1,9 @@
 # features/question.feature
 # language: fr
 Fonctionnalité: Question
-  Afin de
+  Afin de modifier/supprimer/ajouter une question
   En tant qu'utilisateur
-  Je dois être capable de cliquer un bouton dans le menu
+  Je dois être capable de cliquer le bouton nommé "Modifier" ou "Supprimer" ou "Ajouter"
 
 
   Scénario: Modifier une question
