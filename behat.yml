@@ -2,21 +2,24 @@
 
 default:
   suites:
-    menu:
+    default:
       contexts:
-        - MenuContext
-    nouvellePartie:
-      contexts:
-        - NouvellePartieContext
-    option:
-      contexts:
-        - OptionContext
-    partieUnJoueur:
-      contexts:
-        - PartieUnJoueurContext
-    question:
-      contexts:
-        - QuestionContext
-    resultat:
-      contexts:
-        - ResultatContext
+        - FeatureContext
+    # menu:
+    #   contexts:
+    #     - MenuContext
+    # nouvellePartie:
+    #   contexts:
+    #     - NouvellePartieContext
+    # option:
+    #   contexts:
+    #     - OptionContext
+    # partieUnJoueur:
+    #   contexts:
+    #     - PartieUnJoueurContext
+    # question:
+    #   contexts:
+    #     - QuestionContext
+    # resultat:
+    #   contexts:
+    #     - ResultatContext
