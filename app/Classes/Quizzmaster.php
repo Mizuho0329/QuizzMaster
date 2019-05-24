@@ -4,8 +4,28 @@
 
 final class Quizzmaster
 {
-    private $questions;
-    private $option;
+    private $questions = array();
+    private $option = array();
+    private $buttons = array();
+
+    public function ifExists($buttonName)
+    {
+        if (in_array($buttonName, $this->buttons)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public function isClicked($buttonName)
+    {
+        return "clicked !";
+    }
+
+    public function openPage($buttonName)
+    {
+        return "clicked !";
+    }
 
     /**
      * @return mixed

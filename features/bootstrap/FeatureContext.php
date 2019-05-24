@@ -46,7 +46,8 @@ class FeatureContext implements Context
      */
     public function jeVoisUnBoutonDuMenuNomme($arg1)
     {
-        $this->quizzMaster->setButton($arg1);
+        $isExists = $this->quizzMaster->ifExists($arg1);
+        $this->assertEquals(true, $isExists);
     }
 
     /**
@@ -54,8 +55,8 @@ class FeatureContext implements Context
      */
     public function jeCliqueSurLeBoutonNomme($arg1)
     {
-        $name = $this->quizzMaster->clickButton($arg1);
-        $this->assertEquals($name, $arg1);
+        $isClicked = $this->quizzMaster->isClicked($arg1);
+        $this->assertEquals("clicked !", $isClicked);
     }
 
     /**
