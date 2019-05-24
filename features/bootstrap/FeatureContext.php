@@ -46,7 +46,7 @@ class FeatureContext implements Context
      */
     public function jeVoisUnBoutonDuMenuNomme($arg1)
     {
-        throw new PendingException();
+        $this->quizzMaster->setButton($arg1);
     }
 
     /**
@@ -54,7 +54,8 @@ class FeatureContext implements Context
      */
     public function jeCliqueSurLeBoutonNomme($arg1)
     {
-        throw new PendingException();
+        $name = $this->quizzMaster->clickButton($arg1);
+        $this->assertEquals($name, $arg1);
     }
 
     /**
