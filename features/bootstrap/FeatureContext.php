@@ -16,7 +16,7 @@ class FeatureContext implements Context
      * context constructor through behat.yml.
      */
 
-    private $quizzmaster;
+    private $quizzMaster;
     private $question;
     private $partie;
     private $reponse;
@@ -25,7 +25,7 @@ class FeatureContext implements Context
 
     public function __construct()
     {
-        $this->quizzmaster = new Quizzmaseter($this->quizzmaster);
+        $this->quizzMaster = new QuizzMaseter($this->quizzMaster);
         $this->question = new Question($this->question);
         $this->partie = new Partie($this->partie);
         $this->reponse = new Reponse($this->reponse);
@@ -39,7 +39,7 @@ class FeatureContext implements Context
      */
     public function jeVoisUnBoutonDuMenuNomme($arg1)
     {
-        throw new PendingException();
+        $this->quizzMaster->setButton($arg1);
     }
 
     /**
