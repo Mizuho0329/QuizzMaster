@@ -5,22 +5,22 @@ class Jeux
 {
 
     private $scores;
-    private $players;
+    private $joueurs;
 
     /**
      * @return mixed
      */
-    public function getPlayers()
+    public function getJoueurs()
     {
-        return $this->players;
+        return $this->joueurs;
     }
 
     /**
-     * @param mixed $players
+     * @param mixed $joueurs
      */
-    public function setPlayers($players): void
+    public function setJoueurs($joueurs): void
     {
-        $this->players = $players;
+        $this->joueurs = $joueurs;
     }
 
     /**

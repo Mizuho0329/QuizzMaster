@@ -4,73 +4,72 @@
 class Question
 {
 
-    private $name;
-    private $answers;
-    private $category;
-    private $difficulty;
+    private $nom;
+    private $reponse;
+    private $categorie;
+    private $difficulte;
 
     /**
      * @return mixed
      */
-    public function getName()
+    public function getNom()
     {
-        return $this->name;
+        return $this->nom;
     }
 
     /**
-     * @param mixed $name
+     * @param mixed $nom
      */
-    public function setName($name): void
+    public function setNom($nom): void
     {
-        $this->name = $name;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getDifficulty()
-    {
-        return $this->difficulty;
-    }
-
-    /**
-     * @param mixed $difficulty
-     */
-    public function setDifficulty($difficulty): void
-    {
-        $this->difficulty = $difficulty;
+        $this->nom = $nom;
     }
 
     /**
      * @return mixed
      */
-    public function getAnswers()
+    public function getCategorie()
     {
-        return $this->answers;
+        return $this->categorie;
     }
 
     /**
-     * @param mixed $answers
+     * @param mixed $categorie
      */
-    public function setAnswers($answers): void
+    public function setCategorie($categorie): void
     {
-        $this->answers = $answers;
+        $this->categorie = $categorie;
     }
 
     /**
      * @return mixed
      */
-    public function getCategory()
+    public function getDifficulte()
     {
-        return $this->category;
+        return $this->difficulte;
     }
 
     /**
-     * @param mixed $category
+     * @param mixed $difficulte
      */
-    public function setCategory($category): void
+    public function setDifficulte($difficulte): void
     {
-        $this->category = $category;
+        $this->difficulte = $difficulte;
     }
 
+    /**
+     * @return mixed
+     */
+    public function getReponse()
+    {
+        return $this->reponse;
+    }
+
+    /**
+     * @param mixed $reponse
+     */
+    public function setReponse($reponse): void
+    {
+        $this->reponse = $reponse;
+    }
 }

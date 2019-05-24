@@ -4,39 +4,37 @@
 class Options
 {
 
-    private $language;
-    private $sound;
+    private $langue;
+    private $son;
 
     /**
      * @return mixed
      */
-    public function getLanguage()
+    public function getSon()
     {
-        return $this->language;
+        return $this->son;
     }
 
     /**
-     * @param mixed $language
+     * @param mixed $son
      */
-    public function setLanguage($language): void
+    public function setSon($son): void
     {
-        $this->language = $language;
+        $this->son = $son;
     }
-
     /**
      * @return mixed
      */
-    public function getSound()
+    public function getLangue()
     {
-        return $this->sound;
+        return $this->langue;
     }
 
     /**
-     * @param mixed $sound
+     * @param mixed $langue
      */
-    public function setSound($sound): void
+    public function setLangue($langue): void
     {
-        $this->sound = $sound;
+        $this->langue = $langue;
     }
-
 }
