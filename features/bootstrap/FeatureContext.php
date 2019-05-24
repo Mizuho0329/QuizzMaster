@@ -16,14 +16,15 @@ class FeatureContext implements Context
      * context constructor through behat.yml.
      */
 
-    // private $quizzmaster;
-    // private $bouton;
+    private $quizzmaster;
+    private $bouton;
 
     public function __construct()
     {
         // $this->bouton = new Bouton();
         // $this->menu = new Quizzmaseter($this->bouton);
     }
+
 
     /**
      * @Given je vois un bouton du menu nommé :arg1
@@ -314,41 +315,9 @@ class FeatureContext implements Context
     }
 
     /**
-     * @Given j'ai eu au moins :arg1 mauvaise réponse
-     */
-    public function jaiEuAuMoinsMauvaiseReponse($arg1)
-    {
-        throw new PendingException();
-    }
-
-    /**
      * @Then une mauvaise réponse est supprimée du choix de la réponse
      */
     public function uneMauvaiseReponseEstSupprimeeDuChoixDeLaReponse()
-    {
-        throw new PendingException();
-    }
-
-    /**
-     * @Then je vois la question actuelle
-     */
-    public function jeVoisLaQuestionActuelle()
-    {
-        throw new PendingException();
-    }
-
-    /**
-     * @Given je n'ai eu aucune mauvaise réponse
-     */
-    public function jeNaiEuAucuneMauvaiseReponse()
-    {
-        throw new PendingException();
-    }
-
-    /**
-     * @Then je vois :arg1
-     */
-    public function jeVois($arg1)
     {
         throw new PendingException();
     }
@@ -445,6 +414,14 @@ class FeatureContext implements Context
      * @Then je dois voir la liste des questions avec la question ajoutée
      */
     public function jeDoisVoirLaListeDesQuestionsAvecLaQuestionAjoutee()
+    {
+        throw new PendingException();
+    }
+
+    /**
+     * @Given je vois le résultat d'une partie
+     */
+    public function jeVoisLeResultatDunePartie()
     {
         throw new PendingException();
     }

@@ -49,20 +49,9 @@ Fonctionnalité: partieUnJoueur
     Alors la question n'est pas validé
     Et je vois une autre question
 
-  Scénario: Enlever 1 mauvaise réponse si existant
+  Scénario: Enlever 1 mauvaise réponse
     Etant donné que je vois un bouton "Indice"
     Et je vois un bouton "Passer"
     Et je vois un bouton "Enlever 1 mauvaise réponse"
-    Et j'ai eu au moins 1 mauvaise réponse
     Quand je clique le bouton "Enlever 1 mauvaise réponse"
     Alors une mauvaise réponse est supprimée du choix de la réponse
-    Et je vois la question actuelle
-
-  Scénario: Enlever 1 mauvaise réponse si non existant
-    Etant donné que je vois un bouton "Indice"
-    Et je vois un bouton "Passer"
-    Et je vois un bouton "Enlever 1 mauvaise réponse"
-    Et je n'ai eu aucune mauvaise réponse
-    Quand je clique le bouton "Enlever 1 mauvaise réponse"
-    Alors je vois "Vous n'avez pas de mauvaise réponse !"
-    Et je vois la question actuelle
