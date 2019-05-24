@@ -1,19 +1,19 @@
 # features/menu.feature
 # language: fr
 Fonctionnalité: Menu
-  Afin d'utiliser cet application
+  Afin d'utiliser cette application
   En tant qu'utilisateur
   Je dois être capable de cliquer un bouton dans le menu
 
 
   Scénario: Commencer quizz
     Etant donné que je vois un bouton du menu nommé "Démarrer quizz"
-    Quand je clique sur le bouton nommé "démarrer"
+    Quand je clique sur le bouton nommé "Démarrer quizz"
     Alors je dois voir la page : "Nouvelle partie"
 
   Scénario: Modifier les options
-    Etant donné que je vois un bouton du menu nommé "option"
-    Quand je clique sur le bouton nommé "option"
+    Etant donné que je vois un bouton du menu nommé "Option"
+    Quand je clique sur le bouton nommé "Option"
     Alors je dois voir la page : "Option"
 
   Scénario: Editer les questions

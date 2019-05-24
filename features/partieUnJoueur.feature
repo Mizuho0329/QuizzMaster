@@ -1,9 +1,9 @@
-# features/partieUnJoeur.feature
+# features/partieUnJoueur.feature
 # language: fr
-Fonctionnalité: partieUnJoeur
+Fonctionnalité: partieUnJoueur
   Afin de jouer un quizz
   En tant qu'utilisateur
-  Je dois être capable de répondre à 10 questions
+  Je dois être capable de répondre bien ou non, à une suite de 10 questions
 
 
   Scénario: Sélectionner une bonne réponse et ce n'est pas la dernière question

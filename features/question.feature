@@ -15,20 +15,20 @@ Fonctionnalité: Question
 
   Scénario: Supprimer une question
     Etant donné que je vois une liste des questions dont un bouton "Supprimer" pour chaque question
-    Quand je clique sur avec la catégorie "film  le bouton nommé "Supprimer" de la question que je veux supprimer
+    Quand je clique sur le bouton nommé "Supprimer" de la question que je veux supprimer
     Et je clique un bouton "OK"
     Alors je dois voir la liste des questions sans la question supprimée
 
   Scénario: Commencer à ajouter une question
     Etant donné que je vois une liste des questions et un bouton "Nouvelle question"
     Quand je clique sur le bouton nommé "Nouvelle question"
-    Alors je dois voir la formulaire de la nouvelle question
+    Alors je dois voir la page formulaire "nouvelle question"
 
   Scénario: Valider la nouvelle question
     Etant donné que je vois la formulaire de la nouvelle question
     Quand je remplis les champs "Question", "Bonne réponse", "Mauvaise réponse 1", "Mauvaise réponse 2", "Mauvaise réponse 3", "Indice", "Image", "Catégorie"
     Et je clique un bouton "Ajouter"
-    Alors je dois voir la liste des questions dont la nouvelle question ajoutée
+    Alors je dois voir la liste des questions avec la question ajoutée
 
   Scénario: Retourner au Menu
     Etant donné que je vois un bouton nommé "Retour menu"

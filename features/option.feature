@@ -1,19 +1,19 @@
 # features/option.feature
 # language: fr
 Fonctionnalité: Option
-  Afin de parametrer cet application
+  Afin de parametrer cette application
   En tant qu'utilisateur
   Je dois être capable de choisir des options
 
 
   Scénario: Changer la langue en "Français"
-    Etant donné que je vois une "select list" des langues disponibles
-    Quand je sélectionne "Français" dans la "select list"
+    Etant donné que je vois une liste des langues disponibles
+    Quand je sélectionne "Français" dans la liste
     Alors l'application doit charger la langue en "Français"
 
   Scénario: Changer la langue en "Anglais"
-    Etant donné que je vois une "select list" des langues disponibles
-    Quand je sélectionne "Anglais" dans la "select list"
+    Etant donné que je vois une liste des langues disponibles
+    Quand je sélectionne "Anglais" dans la liste
     Alors l'application doit charger la langue en "Anglais"
 
   Scénario: Activer les sons
