@@ -1,8 +1,8 @@
 <?php
 
-// features/bootstrap/Quizzmaster.php
+// features/bootstrap/QuizzMaster.php
 
-final class Quizzmaster
+final class QuizzMaster
 {
     private $questions = array();
     private $option = array();
