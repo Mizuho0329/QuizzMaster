@@ -445,17 +445,17 @@ class NouvellePartieContext implements Context
     }
 
     /**
-     * @Given je vois la résultat d'une partie
+     * @Then je dois voir la nouvelle question
      */
-    public function jeVoisLaResultatDunePartie()
+    public function jeDoisVoirLaNouvelleQuestion()
     {
         throw new PendingException();
     }
 
     /**
-     * @Then je dois voir la nouvelle question
+     * @Given je vois le résultat d'une partie
      */
-    public function jeDoisVoirLaNouvelleQuestion()
+    public function jeVoisLeResultatDunePartie()
     {
         throw new PendingException();
     }

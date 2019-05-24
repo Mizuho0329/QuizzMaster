@@ -445,14 +445,6 @@ class FeatureContext implements Context
     }
 
     /**
-     * @Given je vois la résultat d'une partie
-     */
-    public function jeVoisLaResultatDunePartie()
-    {
-        throw new PendingException();
-    }
-
-    /**
      * @Then je dois voir la nouvelle question
      */
     public function jeDoisVoirLaNouvelleQuestion()
