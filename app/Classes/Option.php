@@ -1,7 +1,7 @@
 <?php
 
 
-class Options
+class Option
 {
     private $language;
     private $sound;
@@ -36,6 +36,10 @@ class Options
     public function setSound($sound): void
     {
         $this->sound = $sound;
+    }
+
+    function __construct()
+    {
     }
 
 }

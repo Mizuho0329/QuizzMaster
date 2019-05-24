@@ -21,4 +21,8 @@ class Player
         $this->name = $name;
     }
 
+    function __construct()
+    {
+    }
+
 }

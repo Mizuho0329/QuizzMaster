@@ -71,4 +71,9 @@ class Question
     {
         $this->answer = $answer;
     }
+
+    function __construct()
+    {
+    }
+
 }
