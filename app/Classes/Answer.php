@@ -38,4 +38,8 @@ class Answer
         $this->isCorrect = $isCorrect;
     }
 
+    function __construct()
+    {
+    }
+
 }

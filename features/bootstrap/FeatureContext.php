@@ -1,5 +1,12 @@
 <?php
 
+include("app/Classes/Answer.php");
+include("app/Classes/Game.php");
+include("app/Classes/Option.php");
+include("app/Classes/Player.php");
+include("app/Classes/Question.php");
+include("app/Classes/Quizzmaster.php");
+
 use Behat\Behat\Tester\Exception\PendingException;
 use Behat\Behat\Context\Context;
 
@@ -25,12 +32,12 @@ class FeatureContext implements Context
 
     public function __construct()
     {
-        $this->quizzmaster = new Quizzmaseter($this->quizzmaster);
-        $this->question = new Question($this->question);
-        $this->game = new Game($this->game);
-        $this->answer = new Answer($this->answer);
-        $this->player = new Player($this->player);
-        $this->option = new Option($this->option);
+        $this->quizzmaster = new Quizzmaster();
+        $this->question = new Question();
+        $this->game = new Game();
+        $this->answer = new Answer();
+        $this->player = new Player();
+        $this->option = new Option();
     }
 
 

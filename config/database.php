@@ -58,7 +58,7 @@ return [
             'prefix_indexes' => true,
             'strict' => true,
             'engine' => null,
-            'options' => extension_loaded('pdo_mysql') ? array_filter([
+            'Option' => extension_loaded('pdo_mysql') ? array_filter([
                 PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
             ]) : [],
         ],
@@ -121,7 +121,7 @@ return [
 
         'client' => env('REDIS_CLIENT', 'predis'),
 
-        'options' => [
+        'Option' => [
             'cluster' => env('REDIS_CLUSTER', 'predis'),
             'prefix' => Str::slug(env('APP_NAME', 'laravel'), '_').'_database_',
         ],

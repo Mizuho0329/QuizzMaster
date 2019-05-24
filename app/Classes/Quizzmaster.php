@@ -38,4 +38,9 @@ final class Quizzmaster
     {
         $this->option = $option;
     }
+
+    function __construct()
+    {
+    }
+
 }
