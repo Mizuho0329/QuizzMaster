@@ -3,7 +3,6 @@
 
 class Answer
 {
-
     private $name;
     private $isCorrect;
 

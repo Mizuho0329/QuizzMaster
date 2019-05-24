@@ -3,9 +3,8 @@
 
 class Question
 {
-
     private $name;
-    private $answers;
+    private $answer;
     private $category;
     private $difficulty;
 
@@ -28,6 +27,22 @@ class Question
     /**
      * @return mixed
      */
+    public function getCategory()
+    {
+        return $this->category;
+    }
+
+    /**
+     * @param mixed $category
+     */
+    public function setCategory($category): void
+    {
+        $this->category = $category;
+    }
+
+    /**
+     * @return mixed
+     */
     public function getDifficulty()
     {
         return $this->difficulty;
@@ -44,33 +59,16 @@ class Question
     /**
      * @return mixed
      */
-    public function getAnswers()
+    public function getAnswer()
     {
-        return $this->answers;
+        return $this->answer;
     }
 
     /**
-     * @param mixed $answers
+     * @param mixed $answer
      */
-    public function setAnswers($answers): void
+    public function setAnswer($answer): void
     {
-        $this->answers = $answers;
+        $this->answer = $answer;
     }
-
-    /**
-     * @return mixed
-     */
-    public function getCategory()
-    {
-        return $this->category;
-    }
-
-    /**
-     * @param mixed $category
-     */
-    public function setCategory($category): void
-    {
-        $this->category = $category;
-    }
-
 }

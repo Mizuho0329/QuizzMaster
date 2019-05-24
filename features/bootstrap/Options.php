@@ -3,7 +3,6 @@
 
 class Options
 {
-
     private $language;
     private $sound;
 
