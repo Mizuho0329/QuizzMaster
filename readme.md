@@ -1,4 +1,4 @@
-##Get Started
+## Get Started
 
 Install Composer Dependencies
 <pre> composer install </pre>
@@ -11,7 +11,10 @@ Artisan
 Launch artisan server
 <pre> php artisan serve </pre>
 
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+Test behat
+<pre>vendor\bin\behat --config .\features\bootstrap\behat.yml</pre>
+
+## <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
