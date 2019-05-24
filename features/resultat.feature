@@ -7,15 +7,15 @@ Fonctionnalité: Resultat
 
 
   Scénario: Rejouer
-    Etant donné que je vois la résultat d'une partie
+    Etant donné que je vois le résultat d'une partie
     Et je vois un bouton "Rejouer"
     Et je vois un bouton "Retour Menu"
     Quand je clique sur le bouton nommé "Rejouer"
     Alors je dois voir la nouvelle question
-    Et je dois voir la page "Nouvelel partie"
+    Et je dois voir la page "Nouvelle partie"
 
   Scénario: Retourner au Menu
-    Etant donné que je vois la résultat d'une partie
+    Etant donné que je vois le résultat d'une partie
     Et je vois un bouton "Rejouer"
     Et je vois un bouton "Retour menu"
     Quand je clique sur le bouton nommé "Retour menu"

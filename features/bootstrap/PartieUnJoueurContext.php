@@ -6,7 +6,7 @@ use Behat\Behat\Context\Context;
 /**
  * Defines application features from the specific context.
  */
-class FeatureContext implements Context
+class PartieUnJoueurContext implements Context
 {
     /**
      * Initializes context.
@@ -16,13 +16,8 @@ class FeatureContext implements Context
      * context constructor through behat.yml.
      */
 
-    // private $quizzmaster;
-    // private $bouton;
-
     public function __construct()
     {
-        // $this->bouton = new Bouton();
-        // $this->menu = new Quizzmaseter($this->bouton);
     }
 
     /**
@@ -453,6 +448,14 @@ class FeatureContext implements Context
      * @Then je dois voir la nouvelle question
      */
     public function jeDoisVoirLaNouvelleQuestion()
+    {
+        throw new PendingException();
+    }
+
+    /**
+     * @Given je vois le résultat d'une partie
+     */
+    public function jeVoisLeResultatDunePartie()
     {
         throw new PendingException();
     }
