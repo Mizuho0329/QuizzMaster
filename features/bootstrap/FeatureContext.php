@@ -5,7 +5,7 @@ include("app/Classes/Game.php");
 include("app/Classes/Option.php");
 include("app/Classes/Player.php");
 include("app/Classes/Question.php");
-include("app/Classes/Quizzmaster.php");
+include("app/Classes/QuizzMaster.php");
 
 use Behat\Behat\Tester\Exception\PendingException;
 use Behat\Behat\Context\Context;
@@ -23,7 +23,7 @@ class FeatureContext implements Context
      * context constructor through behat.yml.
      */
 
-    private $quizzmaster;
+    private $quizzMaster;
     private $question;
     private $game;
     private $answer;
@@ -32,7 +32,7 @@ class FeatureContext implements Context
 
     public function __construct()
     {
-        $this->quizzmaster = new Quizzmaster();
+        $this->quizzMaster = new QuizzMaster();
         $this->question = new Question();
         $this->game = new Game();
         $this->answer = new Answer();
