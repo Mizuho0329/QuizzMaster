@@ -11,6 +11,9 @@ Artisan
 Launch artisan server
 <pre> php artisan serve </pre>
 
+Snippet command
+<pre>vendor\bin\behat --dry-run --append-snippets</pre>
+
 Test behat
 <pre>vendor\bin\behat --config .\features\bootstrap\behat.yml</pre>
 
