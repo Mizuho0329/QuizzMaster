@@ -4,15 +4,38 @@
 
 final class Quizzmaster
 {
-    // private $priceMap = array();
+    private $questions;
+    private $option;
 
-    // public function setProductPrice($product, $price)
-    // {
-    //     $this->priceMap[$product] = $price;
-    // }
+    /**
+     * @return mixed
+     */
+    public function getQuestions()
+    {
+        return $this->questions;
+    }
 
-    // public function getProductPrice($product)
-    // {
-    //     return $this->priceMap[$product];
-    // }
+    /**
+     * @param mixed $questions
+     */
+    public function setQuestions($questions): void
+    {
+        $this->questions = $questions;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getOption()
+    {
+        return $this->option;
+    }
+
+    /**
+     * @param mixed $option
+     */
+    public function setOption($option): void
+    {
+        $this->option = $option;
+    }
 }

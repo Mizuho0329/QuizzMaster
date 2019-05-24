@@ -3,7 +3,6 @@
 
 class Question
 {
-
     private $name;
     private $answer;
     private $category;
@@ -72,5 +71,4 @@ class Question
     {
         $this->answer = $answer;
     }
-
 }
