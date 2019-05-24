@@ -1,7 +1,7 @@
 <?php
 
 
-class Jeux
+class Game
 {
 
     private $scores;
@@ -10,9 +10,9 @@ class Jeux
     /**
      * @return mixed
      */
-    public function getPlayers()
+    public function getScores()
     {
-        return $this->players;
+        return $this->scores;
     }
 
     /**
@@ -26,9 +26,9 @@ class Jeux
     /**
      * @return mixed
      */
-    public function getScores()
+    public function getPlayers()
     {
-        return $this->scores;
+        return $this->players;
     }
 
     /**

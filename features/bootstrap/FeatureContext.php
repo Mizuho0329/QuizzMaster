@@ -28,8 +28,8 @@ class FeatureContext implements Context
         $this->quizzmaster = new Quizzmaseter($this->quizzmaster);
         $this->question = new Question($this->question);
         $this->partie = new Partie($this->partie);
-        $this->reponse = new Reponse($this->reponse);
-        $this->joueur = new Joueur($this->joueur);
+        $this->reponse = new Answer($this->reponse);
+        $this->joueur = new Player($this->joueur);
         $this->option = new Option($this->option);
     }
 

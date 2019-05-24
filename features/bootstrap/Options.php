@@ -10,22 +10,6 @@ class Options
     /**
      * @return mixed
      */
-    public function getLanguage()
-    {
-        return $this->language;
-    }
-
-    /**
-     * @param mixed $language
-     */
-    public function setLanguage($language): void
-    {
-        $this->language = $language;
-    }
-
-    /**
-     * @return mixed
-     */
     public function getSound()
     {
         return $this->sound;
@@ -39,4 +23,19 @@ class Options
         $this->sound = $sound;
     }
 
+    /**
+     * @return mixed
+     */
+    public function getLanguage()
+    {
+        return $this->language;
+    }
+
+    /**
+     * @param mixed $language
+     */
+    public function setLanguage($language): void
+    {
+        $this->language = $language;
+    }
 }
