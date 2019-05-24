@@ -15,7 +15,7 @@ Snippet command
 <pre>vendor\bin\behat --dry-run --append-snippets</pre>
 
 Test behat
-<pre>vendor\bin\behat --config .\features\bootstrap\behat.yml</pre>
+<pre>vendor\bin\behat --config .\behat.yml</pre>
 
 ## <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
