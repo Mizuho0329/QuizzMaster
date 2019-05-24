@@ -11,4 +11,11 @@ npm-debug.log
 yarn-error.log
 command_note.md
 /idea/.
-.idea
+
+\.idea/QuizzMaster\.xml
+\.idea/misc\.xml
+\.idea/modules\.xml
+\.idea/php\.xml
+\.idea/php-test-framework\.xml
+\.idea/vcs\.xml
+\.idea/workspace\.xml
