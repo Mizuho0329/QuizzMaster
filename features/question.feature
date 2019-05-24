@@ -15,7 +15,7 @@ Fonctionnalité: Question
 
   Scénario: Supprimer une question
     Etant donné que je vois une liste des questions dont un bouton "Supprimer" pour chaque question
-    Quand je clique sur le bouton nommé "Supprimer" de la question que je veux supprimer
+    Quand je clique sur avec la catégorie "film  le bouton nommé "Supprimer" de la question que je veux supprimer
     Et je clique un bouton "OK"
     Alors je dois voir la liste des questions sans la question supprimée
 
