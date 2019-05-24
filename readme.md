@@ -11,11 +11,19 @@ Artisan
 Launch artisan server
 <pre> php artisan serve </pre>
 
-Snippet command
-<pre>vendor\bin\behat --dry-run --append-snippets</pre>
+## Snippet command
 
-Test behat
+Windows
+<pre>vendor\bin\behat --dry-run --append-snippets</pre>
+Linux
+<pre>vendor/bin/behat --dry-run --append-snippets</pre>
+
+## Test behat
+
+Windows
 <pre>vendor\bin\behat --config .\behat.yml</pre>
+Linux
+<pre>vendor/bin/behat --config ./behat.yml</pre>
 
 ## <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
